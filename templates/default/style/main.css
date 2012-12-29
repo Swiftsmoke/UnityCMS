@@ -1,0 +1,69 @@
+/******************************\
+*        ForsakenGaming        *
+*                              *
+*      main.css by Pingue      *
+*                              *
+/******************************/
+
+* {margin:0;padding:0;}
+html, body {width:100%;height:100%;}
+body {background:url(../images/background.png) no-repeat top center #000;font-family:verdana;}
+a, a:active {color:#f7b536;text-decoration:none;border:0;}
+a:hover {color:#f7b536;text-decoration:underline;border:0;}
+input {border:0;outline:0;}
+input[name="loginuname"], input[name="loginpword"] {background:url(../images/input.png) no-repeat;height:15px;width:173px;color:#FFF;margin-left:3px;margin-bottom:10px;padding:6px;font-size:11px;font-weight:bold;}
+input[name="loginsubmit"] {background:url(../images/submit.png) no-repeat;height:29px; width:59px;color:#000;padding:6px;font-weight:bold;font-size:11px;} 
+
+#top {background:url(../images/top_bg.png) repeat-x;height:32px;width:100%;font-size:10px;font-weight:bold;color:#FFF;}
+#fg-mid {background:url(../images/top_fg.png) no-repeat;width:125px;height:32px;margin:auto;}
+#fg-left {padding-left:10px;background:url(../images/top_shine.png) bottom center no-repeat;min-width:368px;padding-top:10px;height:22px;float:left;text-align:center;}
+#fg-right {padding-right:10px;padding-top:10px;height:22px;float:right;text-align:center;}
+
+#content {background:url(../images/content_bg.png) repeat-y;width:995px;margin:0 auto;padding-left:20px;padding-right:19px;}
+#navi-area {height:51px;width:995px;}
+#navi1 {background:url(../images/topnavi/navi_1.png) no-repeat;height:51px;width:111px;float:left;border:0;}
+#navi2 {background:url(../images/topnavi/navi_2.png) no-repeat;height:51px;width:111px;float:left;border:0;}
+#navi3 {background:url(../images/topnavi/navi_3.png) no-repeat;height:51px;width:110px;float:left;border:0;}
+#navi4 {background:url(../images/topnavi/navi_4.png) no-repeat;height:51px;width:111px;float:left;border:0;}
+#navi5 {background:url(../images/topnavi/navi_5.png) no-repeat;height:51px;width:110px;float:left;border:0;}
+#navi6 {background:url(../images/topnavi/navi_6.png) no-repeat;height:51px;width:111px;float:left;border:0;}
+#navi7 {background:url(../images/topnavi/navi_7.png) no-repeat;height:51px;width:110px;float:left;border:0;}
+#navi8 {background:url(../images/topnavi/navi_8.png) no-repeat;height:51px;width:111px;float:left;border:0;}
+#navi9 {background:url(../images/topnavi/navi_9.png) no-repeat;height:51px;width:110px;float:left;border:0;}
+#navi1:hover {background:url(../images/topnavi/navi_1_hov.png) no-repeat;height:51px;width:111px;float:left;border:0;}
+#navi2:hover {background:url(../images/topnavi/navi_2_hov.png) no-repeat;height:51px;width:111px;float:left;border:0;}
+#navi3:hover {background:url(../images/topnavi/navi_3_hov.png) no-repeat;height:51px;width:110px;float:left;border:0;}
+#navi4:hover {background:url(../images/topnavi/navi_4_hov.png) no-repeat;height:51px;width:111px;float:left;border:0;}
+#navi5:hover {background:url(../images/topnavi/navi_5_hov.png) no-repeat;height:51px;width:110px;float:left;border:0;}
+#navi6:hover {background:url(../images/topnavi/navi_6_hov.png) no-repeat;height:51px;width:111px;float:left;border:0;}
+#navi7:hover {background:url(../images/topnavi/navi_7_hov.png) no-repeat;height:51px;width:110px;float:left;border:0;}
+#navi8:hover {background:url(../images/topnavi/navi_8_hov.png) no-repeat;height:51px;width:111px;float:left;border:0;}
+#navi9:hover {background:url(../images/topnavi/navi_9_hov.png) no-repeat;height:51px;width:110px;float:left;border:0;}
+#banner {background:url(../images/banner.png) no-repeat;width:995px;height:194px;}
+.mini-nav a, a:active {color:#FFF;text-decoration:none;font-weight:bold;}
+.mini-nav a:hover {color:#f7b536;text-decoration:none;font-weight:bold;}
+.mini-nav a.active {color:#f7b536;text-decoration:none;font-weight:bold;}
+
+#columns {margin-top:15px;color:#FFF;width:967px;padding-left:14px;padding-right:14px;}
+#r-col {width:209px;float:right;color:#FFF;}
+#m-col {width:518px;float:left;margin-left:14px;text-align:center;font-size:10px;}
+#l-col {width:209px;float:left;}
+
+#mod-top {background:url(../images/mod_top.png) no-repeat;height:26px;width:209px;color:#000;font-size:10px;font-weight:bold;text-align:center;padding-top:8px;}
+#mod-bg {background:url(../images/mod_bg.png) repeat-y;padding:10px;width:189px;font-size:10px;font-weight:bold;text-align:center;}
+#mod-bot {background:url(../images/mod_bot.png) no-repeat;width:209px;height:24px;padding-bottom:15px;}
+
+#news-top {background:url(../images/news_top.png) no-repeat;width:518px;height:26px;text-align:center;padding-top:8px;color:#000;font-weight:bold;font-size:10px;}
+#news-bg {background:url(../images/news_bg.png) repeat-y;width:498px;padding:10px;padding-top:0;color:#FFF;font-size:10px;text-align:left;}
+#news-bot {background:url(../images/news_bot.png) no-repeat;width:508px;height:25px;color:#FFF;padding-bottom:15px;font-size:10px;text-align:right;padding-right:10px;padding-top:7px;font-weight:bold;}
+
+#heighter {height:20px;width:995px;}
+
+.realmstatus {background:url(../images/realmstatus.png) no-repeat;width:172px;height:16px;margin:0 auto;padding:2px;}
+.ponline {background:url(../images/realmonline.png) repeat-x;height:16px;}
+.online-r {color:#0F0;}
+.offline-r {color:#F00;}
+
+#footer {background:url(../images/footer_bg.png) no-repeat;width:995px;height:78px;margin:0 auto;text-align:center;padding-top:22px;font-size:10px;color:#FFF;}
+#footer a, a:active {color:#f7b536;text-decoration:none;font-weight:bold;}
+#footer a:hover {color:#f7b536;font-weight:bold;text-decoration:none;}

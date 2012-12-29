@@ -1,0 +1,64 @@
+=====================================================
+Unfinished Content
+=====================================================
+-ACP -> Site Settings -> Offline Message
+-ACP -> Site Settings -> Debugging Mode
+-ACP -> Site Settings -> Number of Realms
+-ACP -> Sessions -> Ingame List
+
+=====================================================
+To Do List
+=====================================================
+
+-- Global --
+-Clean up code so it's pretty :)
+-Simplify configuration variables/arrays
+-Finish page's backend, with their corresponding template page
+-Hooks on login, logout, register for external modules
+-Hooks on add news, add comment, delete news, delete comment
+
+-- Admin Control Panel --
+-ACP -> Permissions
+-ACP -> Bans
+-ACP -> Donation Items
+-ACP -> Donation Packs
+-ACP -> Find User
+-ACP -> Edit User
+-ACP -> View Groups
+-ACP -> Edit Groups
+-ACP -> Mail Configuration
+-ACP -> View Messages
+-ACP -> News Management
+-ACP -> Themes -> Delete/Add
+-ACP -> Themes -> Edit Template Files
+
+-- User Control Panel --
+-UCP -> Main Page (Banned, ip banned, muted, ?)
+-UCP -> Tools
+-UCP -> Tools -> Hearth Character
+-UCP -> Tools -> Change Password
+-UCP -> Tools -> Change Email Address
+
+-- Game Master Control Panel --
+-GMCP -> Main Page
+-GMCP -> Main Page -> Ban Account(Ingame or site)/IP(Ingame or site)/Character
+-GMCP -> Main Page -> Unban Account/IP/Character
+-GMCP -> Main Page -> Manage Donations
+-GMCP -> Main Page -> Read Ingame Tickets
+
+-- Modules --
+-Emulators -> Arcemu
+-Forums -> PHP Bulletin Board
+-Forums -> vBulletin
+
+-- Themes --
+-Needs to have some kind of a parser {$Unity.var1} or {$var1} etc ?
+
+=====================================================
+Theme Changes
+=====================================================
+-- Default Theme --
+-New Banner "Unity CMS"
+-New Footer
+-Numbers removed from top navigation bar
+-Yellow hover added to Login Button

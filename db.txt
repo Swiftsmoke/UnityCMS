@@ -1,0 +1,52 @@
+DROP TABLE IF EXISTS `news`;
+CREATE TABLE `news` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `author_name` tinytext NOT NULL,
+  `author_id` int(11) NOT NULL,
+  `post` longtext NOT NULL,
+  `title` tinytext NOT NULL,
+  `postdate` int(20) NOT NULL DEFAULT 0,
+  `replies` int(5) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `session_data`;
+CREATE TABLE `session_data` (
+ `session_id` varchar(250) NOT NULL default '',
+ `http_user_agent` varchar(250) default NULL,
+ `session_data` text,
+ `session_time` int(20) default NULL,
+ `session_expire` int(20) default NULL,
+ `user` varchar(200) NOT NULL default 'Guest',
+ `userid` int(10) NOT NULL default '0',
+ `location` text,
+ `ipaddress` varchar(25) NOT NULL DEFAULT '',
+ PRIMARY KEY  (`session_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `member_settings`;
+CREATE TABLE `member_settings` (
+ `forumid` int(10) NOT NULL DEFAULT 0,
+ `userid` int(10) NOT NULL DEFAULT 0,
+ `avatar` text,
+ `language` varchar(10) NOT NULL DEFAULT 'en',
+ `firstname` varchar(255) NOT NULL DEFAULT '',
+ `lastname` varchar(255) NOT NULL DEFAULT '',
+ `gender` tinyint(1) NOT NULL DEFAULT 0,
+ `url` text,
+ `country` text,
+ `aboutme` text
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `navigation`;
+CREATE TABLE `navigation` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `author_name` tinytext NOT NULL,
+  `author_id` int(11) NOT NULL,
+  `title` tinytext NOT NULL,
+  `post` longtext NOT NULL,
+  `postdate` int(20) NOT NULL DEFAULT 0,
+  `custom_url` text NOT NULL DEFAULT '',
+  `level` tinyint(1) DEFAULT 0,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;

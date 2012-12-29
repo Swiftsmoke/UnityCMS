@@ -1,0 +1,112 @@
+:focus { outline: 0; }
+body { margin: 0px; font-family: Arial, Tahoma, Verdana;  }
+h1 {font: normal 23px/20px "Lucida Sans Unicode"; letter-spacing: -2px; color: #889; margin-bottom: 0px; }
+h2 {font: normal 29px/29px "Lucida Sans Unicode"; letter-spacing: -2px; color: #667; margin: 20px; text-align: left;}
+#container { width: 100%; margin: 0px auto; background-color: #fff; color: #333; line-height: 100%;}
+
+#header { background: #fff url(images/tpl_admin_header_bg.gif) repeat-x; border-bottom: 3px solid #ed5929; margin-top: 22px; height: 43px; overflow: none;}
+#menu { width: 100%; height: 23px; position:relative; top: 0px;}
+#menu ul { float: right; margin: 0; padding: 0; bottom: -1px; width: 40em;}
+#menu li {display: inline; list-style: none;}
+#menu a, span, a.current { width: 8em; display: block; float: left; margin: 0 6px 0 0; padding-top: 1px; text-align: center; font-size: 12px; text-decoration: none; color: #fff; font-weight: bold; line-height: 22px; }
+#menu span, a.current, a.current:hover { border: none; background: #fff url(images/tpl_admin_menu_active.gif) repeat-x; }
+#menu a { background: #fff url(images/tpl_admin_menu_off.gif) repeat-x; border: none; color: #445;}
+#menu a:hover { background: #fff url(images/tpl_admin_menu_on.gif) repeat-x; }
+                    
+#content { height: 80%; margin-left: 15px; margin-right: 15px;}
+#leftnav { width: 18%; float: left; background-color: #fff; margin: 15px 0 0 0; border: 1px solid #ddd; padding: 5px 5px 30px 5px;}
+#leftnav h2 { font: normal 17px "Lucida Sans Unicode"; letter-spacing: -1px; color: #ff4800; margin: 20px 0 5px 10px;}
+#leftnav ul { list-style: none; font-size: 12px; padding: 0 5px 0 5px; margin: 0 5px 0 5px;}
+#leftnav ul li { border-bottom: 1px dotted #bbc; padding: 5px 0 5px 0; }
+#leftnav ul li:hover { border-bottom: 1px solid #bbc; }
+#leftnav ul li a {  color: #667; font: normal 13px/15px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; text-decoration: none; }
+#leftnav ul li a:hover { color: #bbc; text-decoration: none; }
+
+#rightcontent { width: 80%; float: right; background-color: #fff; margin: 15px 0px 15px 0px;}
+#rightsearch { width: 100%; background-color: #fff; border: 1px solid #ddd; margin-bottom: 5px; }
+#right { width: 100%; background-color: #fff; border: 1px solid #ddd; }
+#right table {font: normal 12px Arial, Helvetica, sans-serif; color: #334;}
+#right table.view {font-size: 12px;}
+#rightcontent table.view {font-size: 12px; color: #334;}
+#right tr.view { background: #fff; font-size: 12px}
+#right td.title { font-size: 1em;}
+#right .check { padding: 4px; float: left; width: 30%; background: #f8f8f8; font: normal 12px/15px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; margin-left: 9%; margin-bottom: 5px; }
+#right .check_output { padding: 4px; float: right; width: 50%; background: #f8f8f8; font: normal 12px/15px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; margin-right: 9%; margin-bottom: 5px; }
+#right .check_error { width: 80%; background-color: #ffcccc; border: 1px solid #ff8f8f; color: #db0000; font: normal 15px/15px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;  }
+#right img { border: 1px solid gray; padding: 1px; margin: 0px; }
+#right a { font: normal 11px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; border-bottom: 1px dotted #bbb; text-decoration: none; color: #ff4800;}
+#right a:hover { border-bottom: 1px solid #bbb; color: #333;}
+#errorbox { width: 100%; text-align: center; padding: 5px 0px 5px 0px; margin-bottom: 15px; background-color: #ffcccc; border: 1px solid #ff8f8f; color: #db0000; font: normal 15px/15px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;}
+#messagebox { width: 100%; text-align: center; padding: 5px 0px 5px 0px; margin-bottom: 15px; background-color: #dfffda; border: 1px solid #a6fb99; color: #009900; font: normal 15px/15px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;}
+.static {  width: 100%; background-color: #fff; border: 1px solid #ddd; text-align: left; margin-top: 5px; padding: 10px; overflow: auto;}
+.legend {  width: 100%; background-color: #f6f6f6; border: 1px solid #ddd; text-align: left; margin-bottom: 5px; overflow: auto; font-size: 12px;}
+
+tr.view { background: #fff; }
+
+#about, #dev, #help, #terms, #privacy { font: normal 13px Arial, Helvetica, sans-serif;}
+#about a, #dev a, #help a, #terms a, #privacy a { font: normal 13px Arial, Helvetica, sans-serif; border-bottom: 1px dotted #bbb; text-decoration: none; color: #ff4800;}
+#about a:hover, #dev a:hover, #help a:hover, #terms a:hover, #privacy a:hover { border-bottom: 1px solid #bbb; color: #333;}
+
+#footer { font: normal 11px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; clear: both; margin: 10px 0px 0px 0px; padding: 10px; color: #667; background-color: #f8f8f8; border: 1px solid #eee; text-align: center; }
+#footer a { font: normal 11px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; border-bottom: 1px dotted #bbb; text-decoration: none; color: #ff4800;}
+#footer a:hover { border-bottom: 1px solid #bbb; color: #333;}
+#footer p { margin: 0; padding: 0;}
+
+#simpleForm form { margin: 0 auto; padding: 5px; width: 80%; margin-bottom: 10px; text-align: left; }
+#simpleForm form fieldset { margin: 0; padding: 20px; border: 1px solid #ddd; margin-bottom: 10px;}
+#simpleForm form fieldset legend { color: #ff4800; font: normal 17px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; }
+#simpleForm form label { color: #667; display: block; float: left; width: 30%; text-align: right; padding: 0; margin: 7px 0 0 0; font: normal 13px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;}
+#simpleForm form fieldset label:first-letter { text-decoration: underline; }
+#simpleForm form input { width: auto; margin:5px 0 5px 10px; border: 1px solid #bbb; height: 25px; padding: 3px 3px 3px 6px; font: normal 13px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; color: #334;}
+#simpleForm form input:hover { background: #f8f8f8; }
+#simpleForm form input.large { width: 50%; }
+#simpleForm form input.medium { width: 24%; }
+#simpleForm form input.smallplus { width: 12%; }
+#simpleForm form input.small { width: 8%; }
+#simpleForm form input.radio { border: 0; margin: 5px 3px 0px 10px;}
+#simpleForm form input.checkbox { border: 0; margin: 5px 3px 0px 10px; }
+#simpleForm form select { margin:5px 0 5px 10px; border: 1px solid #bbb; height: 24px; padding: 3px 3px 3px 3px; font: normal 13px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; color: #334;}
+#simpleForm form select:hover { background: #f8f8f8; }
+#simpleForm textarea { overflow: auto; width: 50%; margin: 10px 0px 0px 10px; border: 1px solid #bbb; font: normal 13px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; color: #334;}
+#simpleForm textarea:hover { background: #f8f8f8;}
+#simpleForm textarea.large { overflow: auto; width: 80%; margin: 10px 0px 0px 10px; border: 1px solid #bbb; font: normal 13px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; color: #334;}
+#simpleForm textarea.large:hover { background: #f8f8f8;}
+#simpleForm textarea.adv { overflow: auto; width: 100%; margin: 3px 0px 0px 3px; border: 1px solid #bbb; font: normal 13px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; color: #334;}
+#simpleForm textarea.adv:hover { background: #f8f8f8;}
+#simpleForm img.tmb { border: 3px solid #ccc; padding: 2px;}
+#simpleForm img.tmb:hover { border: 3px solid #ff4800; }
+#simpleForm img.tmb_active { border: 3px solid #ff4800; padding: 2px;}
+#simpleForm form .required{font-weight:bold;}
+#simpleForm form br { clear:left; }
+
+#searchForm { width: 100%; background-color: #fff5d9; border: 1px solid #fed973; margin-bottom: 15px; }
+#searchForm table {font: bold 12px Arial, Helvetica, sans-serif; color: #445;}
+#searchForm form {margin: 0; padding: 0; }
+#searchForm form input {width: auto; border: 1px solid #ffc555; height: 25px; padding: 3px 3px 3px 6px; font: normal 13px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; color: #334;}
+#searchForm form input:hover { background: #ffe49a; }
+#searchForm form select { border: 1px solid #ffc555; height: 24px; padding: 3px 3px 3px 6px; font: normal 13px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; color: #334; }
+#searchForm form select:hover {background: #ffe49a; }
+
+input.button 
+{
+  background:#fff url(images/tpl_admin_menu_off.gif) repeat-x;
+  font-size: 11px;
+  text-align:center;
+  color:#fff;
+  cursor:pointer;
+  border: none;
+  height:30px;
+}
+.missing {font: normal 17px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; color: #ff4800;}
+
+#paging{ width: auto; margin: 0px auto; margin-top: 3px; margin-bottom: 3px; padding: 0px; font-size: 0.8em; float: right;}
+.pagingnav { padding: 0; margin: 0 auto; width: text-align: center;}
+.pagingnav span { margin: 3px 2px 2px 2px; padding: 0; font-weight: normal; display: block; width: auto; font-size: 0.9em; font: normal 11px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; color: #889;}
+.pagingnav a { font: normal 13px "Lucida Sans Unicode", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; line-height: 18px; color: #445; padding: 0px 6px 0px 6px; margin: 2px 2px 2px 2px; text-decoration: none; background: #fff url(images/tpl_admin_menu_off.gif) repeat-x;  display: block; float: left;}
+.pagingnav a.active { color: #fff; padding: 0px 6px 0px 6px; margin: 2px 2px 2px 2px; text-decoration: none; background: #fff url(images/tpl_admin_menu_active.gif) repeat-x; display: block; float: left;}
+.pagingnav a:hover{ text-decoration: none; color: #fff; background: #fff url(images/tpl_admin_menu_active.gif) repeat-x; }
+.pagingnav_clear { clear: both;; }
+
+#login { width: 450px; height: auto; background-color: #fefefe; border: 1px solid #ddd; padding: 0; margin: 0 auto; margin-top: 10px;}
+#login_errors { width: 450px; padding: 0; margin: 0 auto; margin-top: 10px;}
+span { color: #000000; }
